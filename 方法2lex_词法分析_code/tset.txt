@@ -1,0 +1,7 @@
+int main() {
+    // 这是一个注释
+    int a = 10;
+    int b = 0x1F;
+    double error = $;  /* $ 是非法符号，应该报错 */
+    return 0;
+}
